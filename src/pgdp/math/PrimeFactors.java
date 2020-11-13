@@ -7,7 +7,7 @@ public class PrimeFactors {
 		int n = readInt("Bitte Zahl eingeben:");
 
 		if (n <= 1) {
-			writeConsole("Fehler: n>1 erwartet!");
+			write("Fehler: n>1 erwartet!");
 		}
 	}
 }
