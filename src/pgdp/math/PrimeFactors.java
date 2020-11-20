@@ -9,7 +9,7 @@ public class PrimeFactors {
 
 		if (n <= 1) {
 			writeLineConsole("Fehler: n>1 erwartet!");}
-		else
+		else{
 			while (n >1){
 				if (n % divisor == 0){
 					writeConsole(divisor);
@@ -19,6 +19,6 @@ public class PrimeFactors {
 				else
 					divisor++;
 			}
-			writeLineConsole();
+				writeLineConsole();}
 	}
 }
