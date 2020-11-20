@@ -19,6 +19,5 @@ public class PrimeFactors {
 				else
 					divisor++;
 			}
-
 	}
 }
