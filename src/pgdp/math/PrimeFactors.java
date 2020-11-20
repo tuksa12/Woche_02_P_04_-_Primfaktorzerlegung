@@ -12,12 +12,13 @@ public class PrimeFactors {
 		else
 			while (n >1){
 				if (n % divisor == 0){
-					n = n/divisor;
 					writeConsole(divisor);
+					n = n/divisor;
 						if (n!=1)
 							writeConsole(" ");}
 				else
 					divisor++;
 			}
+			writeLineConsole();
 	}
 }
