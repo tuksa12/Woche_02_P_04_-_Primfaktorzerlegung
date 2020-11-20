@@ -13,7 +13,9 @@ public class PrimeFactors {
 			while (n >1){
 				if (n % divisor == 0){
 					n = n/divisor;
-					writeConsole(divisor+" ");}
+					writeConsole(divisor);
+						if (n!=1)
+							writeConsole(" ");}
 				else
 					divisor++;
 			}
